@@ -6,7 +6,10 @@
 2.git restore --staged <file>
 
 3.Как отменить ошибочный commit ?
-3.git resert HEAD~"count of commits"
+3.git reset HEAD~"count of commits"
+git reset HEAD^
+git commit --amend -m "Newcoment"
+git revert HEAD
 
 4.Как создать новую ветку и переключится в нее?
 4.git branch - make a new branch or git branch -b - make and switch immediately
